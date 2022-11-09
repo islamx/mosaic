@@ -1,0 +1,18 @@
+@use "./abstracts" as *;
+
+/* ==============================
+ * Shame
+ * ------------------------------ */
+/* remove this */
+.sass {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  gap: 1rem;
+
+  & img {
+    width: fit-content;
+    margin-inline: auto;
+  }
+}
+/* /remove this */

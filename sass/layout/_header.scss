@@ -1,0 +1,25 @@
+@use "../abstracts" as *;
+
+/* ==============================
+ * Layout | Header
+ * ------------------------------ */
+.navbar-brand {
+  img {
+    height: 50px;
+  }
+}
+.header {
+  position: relative;
+  background-image: url(../images/hero.jpg);
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+  .hero-info {
+    width: 54%;
+    padding: 30px 40px;
+    background: rgba(0, 0, 0, 0.3);
+    h1 {
+      color: $yellow;
+    }
+  }
+}
