@@ -15,7 +15,10 @@
 	background-size: cover;
 	background-position: center;
   .hero-info {
-    width: 54%;
+    @media screen and (min-width: 768px) {
+      width: 58%;
+    }
+    margin: 11rem 2rem 2rem;
     padding: 30px 40px;
     background: rgba(0, 0, 0, 0.3);
     h1 {

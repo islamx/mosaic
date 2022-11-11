@@ -1,0 +1,9 @@
+
+// You probably already include the core styles
+@forward "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts";
+
+// You can include all the other styles the same as before
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";

@@ -3,11 +3,6 @@
 /* ==============================
  * Utilities | Composition
  * ------------------------------ */
-.container {
-  --max-width: 60rem;
-  width: min(100% - 2rem, var(--max-width));
-  margin-inline: auto;
-}
 
 .flow > *:where(:not(:first-child)) {
   margin-block-start: var(--flow-spacer, 1rem);

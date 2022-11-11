@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sass Template</title>
 
-    <link rel="icon" type="image/svg" href="./logo.svg" />
+    <link rel="icon" type="image/png" href="./logo.png" />
 
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="header d-flex align-items-center justify-content-center">
@@ -48,29 +51,97 @@
         </div>
       </nav>
       <div class="hero-info text-center">
-        <h1 class="fs-48">Tailored solutions for your needs</h1>
+        <h1 class="fs-48 fw-bold">Tailored solutions for your needs</h1>
         <p class="fs-24 text-white">Mosaic Landscaping tailors its solutions to each customer's soft and hard landscaping needs both indoors and outdoors</p>
       </div>
     </header>
 
     <main>
       <section id="ourServices">
-        ourServices
+        <div class="container">
+          <h1 class="text-center fs-40 fw-bold text-primary section-title ">Our Services</h1>
+          <div class="row text-center text-lg-start mb-5">
+            <div class="col-12 col-lg-6 order-lg-2">
+              <div class="">
+                <img src="images/services-2.png" class="img-fluid ms-lg-auto mx-auto" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 order-lg-1">
+              <h1 class="fs-28 fw-bold my-5 text-primary">
+                Design, Supply, Installation and Servicing
+              </h1>
+              <p>
+                Specializes in the design, as well as supply, installation and servicing of earth friendly landscapes being involved from the initial planning stage and resource consent, to full implementation
+              </p>
+            </div>
+          </div>
+          <div class="row text-center text-lg-start">
+            <div class="col-12 col-lg-6">
+              <div class="">
+                <img src="images/services-1.png" class="img-fluid ms-lg-auto mx-auto" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <h1 class="fs-28 fw-bold my-5 text-primary">Islamic/Moorish/Arabesque Designs</h1>
+              <p>Special attention, with a combination of product selection and control, is made in all the projects to minimize waste and promote water conservation. Its focus on Islamic/Moorish/Arabesque designs which are part of our competitive edge.</p>
+            </div>
+          </div>
+        </div>
       </section>
       <section id="ourWork">
-        ourWork
+        <div class="container">
+          <h1 class="text-center fs-40 fw-bold text-primary section-title ">Our Work</h1>
+          <div class="row">
+            <div class="col-12">
+              photos
+            </div>
+          </div>
+        </div>
       </section>
       <section id="contactUs">
-        contactUs
+        <div class="container">
+          <h1 class="text-center fs-40 fw-bold text-primary section-title ">Contact Us</h1>
+          <div class="row text-center text-lg-start">
+            <div class="col-12 col-lg-4">
+              <p>
+                <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                24 Holborn Viaduct, London EC1A 2BN, United Kingdom</p>
+            </div>
+            <div class="col-12 col-lg-4">
+              <p>
+                <span>
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+              mosaiclanscaping@mail.com
+              </p>
+              <p>
+                <span><i class="fa-solid fa-square-phone"></i></span>
+              +44 20 7060 7220
+              </p>
+            </div>
+            <div class="col-12 col-lg-4 text-lg-center">
+              <a href="#" class="social-links">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-links">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="social-links">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="social-links">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>
-        &copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
-        <a href="#">Terms</a>
+    <footer class="container text-center">
+      <p class="fs-13">
+        Copyright ® 2022 Mosaic Landscaping.  All rights Rcerved
       </p>
     </footer>
   </body>

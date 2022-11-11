@@ -1,0 +1,27 @@
+section {
+  padding: 3rem 0;
+  background-image: url(../images/Mosaic-pattern.png);
+  background-repeat: repeat-x;
+  background-position: 0 3px;
+  border-top: 3px solid #252F35;
+
+  .section-title {
+    color: #179649;
+    font-weight: 600;
+    margin: 4rem auto;
+  }
+
+}
+
+.social-links {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 5px;
+  color: #000;
+  font-size: 13px;
+}
