@@ -21309,6 +21309,10 @@ readers do not read off random characters that represent icons */
   transition: 0.3s;
 }
 
+.nav-item.active .nav-link {
+  color: #fff;
+}
+
 .nav-link {
   color: #FAEDA4;
   font-size: 16px;
@@ -21350,14 +21354,14 @@ section .section-title {
   color: #000;
   font-size: 13px;
 }
+.social-links:hover {
+  color: #179649;
+}
 
 .icon-wrapper {
   width: 40px;
   display: inline-block;
   font-size: 20px;
-}
-.icon-wrapper:hover {
-  color: #179649;
 }
 .icon-wrapper.map {
   width: 50px;
@@ -21366,6 +21370,9 @@ section .section-title {
 .gallery-item {
   margin-bottom: 2rem;
   overflow: hidden;
+}
+.gallery-item:hover {
+  cursor: pointer;
 }
 .gallery-item img {
   width: 200px;

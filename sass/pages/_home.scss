@@ -22,15 +22,15 @@ section {
   margin: 0 5px;
   color: #000;
   font-size: 13px;
+  &:hover {
+    color: #179649;
+  }
 }
 
 .icon-wrapper {
   width: 40px;
   display: inline-block;
   font-size: 20px;
-  &:hover {
-    color: #179649;
-  }
   &.map {
     width: 50px;
   }
@@ -39,6 +39,9 @@ section {
 
 .gallery-item {
   margin-bottom: 2rem;
+  &:hover {
+    cursor: pointer;
+  }
   img {
     width: 200px;
     height: 200px;
