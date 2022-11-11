@@ -6,8 +6,6 @@ section {
   border-top: 3px solid #252F35;
 
   .section-title {
-    color: #179649;
-    font-weight: 600;
     margin: 4rem auto;
   }
 
@@ -24,4 +22,27 @@ section {
   margin: 0 5px;
   color: #000;
   font-size: 13px;
+}
+
+.icon-wrapper {
+  width: 40px;
+  display: inline-block;
+  font-size: 20px;
+  &:hover {
+    color: #179649;
+  }
+  &.map {
+    width: 50px;
+  }
+}
+
+
+.gallery-item {
+  margin-bottom: 2rem;
+  img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+  overflow: hidden;
 }

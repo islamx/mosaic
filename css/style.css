@@ -21305,6 +21305,19 @@ readers do not read off random characters that represent icons */
   color: #FAEDA4;
 }
 
+.navbar-dark.bg-dark {
+  transition: 0.3s;
+}
+
+.nav-link {
+  color: #FAEDA4;
+  font-size: 16px;
+  margin-right: 1rem;
+}
+.nav-link:hover {
+  color: #fff;
+}
+
 /* ==============================
  * Layout | Forms
  * ------------------------------ */
@@ -21322,8 +21335,6 @@ section {
   border-top: 3px solid #252F35;
 }
 section .section-title {
-  color: #179649;
-  font-weight: 600;
   margin: 4rem auto;
 }
 
@@ -21338,6 +21349,28 @@ section .section-title {
   margin: 0 5px;
   color: #000;
   font-size: 13px;
+}
+
+.icon-wrapper {
+  width: 40px;
+  display: inline-block;
+  font-size: 20px;
+}
+.icon-wrapper:hover {
+  color: #179649;
+}
+.icon-wrapper.map {
+  width: 50px;
+}
+
+.gallery-item {
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.gallery-item img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
 }
 
 /* ==============================

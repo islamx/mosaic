@@ -26,3 +26,16 @@
     }
   }
 }
+
+.navbar-dark.bg-dark {
+  transition: 0.3s;
+}
+
+.nav-link {
+  color: #FAEDA4;
+  font-size: 16px;
+  margin-right: 1rem;
+  &:hover {
+    color: #fff;
+  }
+}
