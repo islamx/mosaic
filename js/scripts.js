@@ -1,10 +1,11 @@
+// light gallery initialization
 lightGallery(document.getElementById('animated-thumbnails-gallery'), {
   plugins: [lgZoom, lgThumbnail],
   licenseKey: 'your_license_key',
   speed: 500,
-  // ... other settings
 });
 
+// color navbar bar after scroll
 $(function() {
   var header = $("header .navbar");
 
@@ -18,17 +19,7 @@ $(function() {
   });
 });
 
-$(function(){
-  var current = location.pathname;
-  $('.navbar-nav .nav-item .nav-link').each(function(){
-      var $this = $(this);
-      // if the current path is like this link, make it active
-      if($this.attr('href').indexOf(current) !== -1){
-          $this.addClass('active');
-      }
-  })
-})
-
+// active exist navbar link
 $(window).on('hashchange', function() {
   let hash = window.location.hash;
   $('a').closest('li').removeClass('active');

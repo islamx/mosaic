@@ -4,39 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sass Template</title>
+    <title>Mosaic</title>
 
     <link rel="icon" type="image/png" href="./logo.png" />
 
-    <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css" />
-  
-    <link rel="stylesheet" href="css/lightgallery/lightgallery.css">
-    <link rel="stylesheet" href="css/lightgallery/lg-zoom.css">
-    <link rel="stylesheet" href="css/lightgallery/lg-thumbnail.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/lightgallery/lightgallery.css" />
+    <link rel="stylesheet" href="css/lightgallery/lg-zoom.css" />
+    <link rel="stylesheet" href="css/lightgallery/lg-thumbnail.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>    
+  <body>
     <header class="header d-flex align-items-center justify-content-center">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a href="#" class="navbar-brand">
             <img src="images/logo.png" alt="" />
           </a>
-          <button
-          class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarCollapse"
+          >
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -52,22 +49,33 @@
               </li>
             </ul>
           </div>
+          <!-- navbarCollapse -->
         </div>
+        <!-- wrapper -->
       </nav>
       <div class="hero-info text-center">
         <h1 class="fs-48 fw-bold">Tailored solutions for your needs</h1>
-        <p class="fs-24 text-white">Mosaic Landscaping tailors its solutions to each customer's soft and hard landscaping needs both indoors and outdoors</p>
+        <p class="fs-24 text-white">
+          Mosaic Landscaping tailors its solutions to each customer's soft and
+          hard landscaping needs both indoors and outdoors
+        </p>
       </div>
     </header>
 
     <main>
       <section id="ourServices">
         <div class="container">
-          <h1 class="text-center fs-40 fw-bold text-primary section-title ">Our Services</h1>
+          <h1 class="text-center fs-40 fw-bold text-primary section-title">
+            Our Services
+          </h1>
           <div class="row text-center text-lg-start mb-5">
             <div class="col-12 col-lg-6 order-lg-2">
               <div class="">
-                <img src="images/services-2.png" class="img-fluid ms-lg-auto mx-auto" alt="" />
+                <img
+                  src="images/services-2.png"
+                  class="img-fluid ms-lg-auto mx-auto"
+                  alt=""
+                />
               </div>
             </div>
             <div class="col-12 col-lg-6 order-lg-1">
@@ -75,170 +83,268 @@
                 Design, Supply, Installation and Servicing
               </h1>
               <p>
-                Specializes in the design, as well as supply, installation and servicing of earth friendly landscapes being involved from the initial planning stage and resource consent, to full implementation
+                Specializes in the design, as well as supply, installation and
+                servicing of earth friendly landscapes being involved from the
+                initial planning stage and resource consent, to full
+                implementation
               </p>
             </div>
           </div>
           <div class="row text-center text-lg-start">
             <div class="col-12 col-lg-6">
               <div class="">
-                <img src="images/services-1.png" class="img-fluid ms-lg-auto mx-auto" alt="" />
+                <img
+                  src="images/services-1.png"
+                  class="img-fluid ms-lg-auto mx-auto"
+                  alt=""
+                />
               </div>
             </div>
             <div class="col-12 col-lg-6">
-              <h1 class="fs-28 fw-bold my-5 text-primary">Islamic/Moorish/Arabesque Designs</h1>
-              <p>Special attention, with a combination of product selection and control, is made in all the projects to minimize waste and promote water conservation. Its focus on Islamic/Moorish/Arabesque designs which are part of our competitive edge.</p>
+              <h1 class="fs-28 fw-bold my-5 text-primary">
+                Islamic/Moorish/Arabesque Designs
+              </h1>
+              <p>
+                Special attention, with a combination of product selection and
+                control, is made in all the projects to minimize waste and
+                promote water conservation. Its focus on
+                Islamic/Moorish/Arabesque designs which are part of our
+                competitive edge.
+              </p>
             </div>
           </div>
         </div>
       </section>
       <section id="ourWork">
         <div class="container">
-          <h1 class="text-center fs-40 fw-bold text-primary section-title ">Our Work</h1>
-          
-          <div class="gallery-container row offset-1 col-10 offset-1" id="animated-thumbnails-gallery">
+          <h1 class="text-center fs-40 fw-bold text-primary section-title">
+            Our Work
+          </h1>
+
+          <div
+            class="gallery-container row offset-1 col-10 offset-1"
+            id="animated-thumbnails-gallery"
+          >
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221027-WA0008.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221027-WA0008.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221027-WA0008.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0020.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0020.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0020.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0021.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0021.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0021.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0022.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0022.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0022.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0023.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0023.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0023.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0024.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0024.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0024.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0025.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0025.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0025.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0026.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0026.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0026.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0028.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0028.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0028.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0030.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0030.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0030.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0031.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0031.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0031.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0032.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0032.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0032.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0033.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0033.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0033.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0034.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0034.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0034.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0035.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0035.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0035.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0036.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0036.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0036.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0037.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0037.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0037.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0038.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0038.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0038.jpg"
+              />
             </a>
             <a
               data-lg-size="1600-1067"
               class="gallery-item col-12 col-lg-3"
               data-src="images/gallery/IMG-20221030-WA0040.jpg"
-              >
-              <img alt="" class="img-responsive" src="images/gallery/IMG-20221030-WA0040.jpg" />
+            >
+              <img
+                alt=""
+                class="img-responsive"
+                src="images/gallery/IMG-20221030-WA0040.jpg"
+              />
             </a>
           </div>
         </div>
       </section>
       <section id="contactUs">
         <div class="container">
-          <h1 class="text-center fs-40 fw-bold text-primary section-title ">Contact Us</h1>
+          <h1 class="text-center fs-40 fw-bold text-primary section-title">
+            Contact Us
+          </h1>
           <div class="row text-center text-lg-start">
             <div class="col-12 col-lg-4">
-              <p class="d-flex">
+              <p class="d-lg-flex">
                 <span class="icon-wrapper map">
                   <i class="fa-sharp fa-solid fa-location-dot fa-fw"></i>
                 </span>
@@ -248,14 +354,14 @@
             <div class="col-12 col-lg-4">
               <p>
                 <span class="icon-wrapper">
-                  <i class="fa-solid fa-envelope fa-fw"></i>
-                </span>mosaiclanscaping@mail.com
+                  <i class="fa-solid fa-envelope fa-fw"></i> </span
+                >mosaiclanscaping@mail.com
               </p>
               <p>
                 <span class="icon-wrapper">
                   <i class="fa-solid fa-square-phone fa-fw"></i>
                 </span>
-              +44 20 7060 7220
+                +44 20 7060 7220
               </p>
             </div>
             <div class="col-12 col-lg-4 text-lg-center">
@@ -276,14 +382,14 @@
         </div>
       </section>
     </main>
-    
+
     <!-- FOOTER -->
     <footer class="container text-center">
       <p class="fs-13">
-        Copyright ® 2022 Mosaic Landscaping.  All rights Rcerved
+        Copyright ® 2022 Mosaic Landscaping. All rights Rcerved
       </p>
     </footer>
-    
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="js/jquery.js"></script>
     <script src="js/lightgallery.umd.js"></script>
     <script src="js/lg-zoom.umd.js"></script>
